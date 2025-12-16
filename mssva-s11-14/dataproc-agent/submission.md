@@ -71,6 +71,7 @@ All instrumentation must be documented
 Vulnerabilities must remain present
 
 Submission Structure (Strict)
+```text
 mssva-day4-<s11-14>/
 ├── README.md
 ├── investigation/
@@ -83,7 +84,7 @@ mssva-day4-<s11-14>/
     ├── static/
     ├── dynamic/
     └── fuzzing/
-
+```
 Findings Format (Exact)
 
 Your findings.md must contain exactly five findings, one per flag.
