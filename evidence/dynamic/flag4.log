@@ -1,0 +1,4 @@
+dataproc-agent starting...
+[SEC]record_count:1
+[SEC]flags:0
+[STATS] records_processed=0 invalid_records=1

@@ -1,5 +1,6 @@
 CC=clang
 CFLAGS=-g -O0 -Wall -Iinclude
+CFLAGS += -fsanitize=address,undefined -g -O0
 
 all: dataproc-agent
 
