@@ -1,4 +1,4 @@
-Software Security Lab — HPRCSE
+#Software Security Lab — HPRCSE
 Role: Security Researcher
 Investigation Target: dataproc-agent
 Context
@@ -9,7 +9,7 @@ Your task is to conduct a design-aware security investigation of the provided sy
 
 This is not a CTF and not an exploitation exercise.
 
-Core Task
+#Core Task
 
 You must investigate the target system and identify exactly five security-relevant insights, referred to as Flags.
 
@@ -25,23 +25,23 @@ Use memory analysis and fuzzing
 
 Explain why each issue matters
 
-Required Flags (ALL are mandatory)
+## Required Flags (ALL are mandatory)
 
 You must find and report all five flags below:
 
-Design Assumption Broken
+##Design Assumption Broken
 An implicit design or implementation assumption that fails under realistic conditions.
 
-Telemetry Gap Identified
+##Telemetry Gap Identified
 A failure or abnormal behavior that occurs without sufficient logging or visibility.
 
-Memory Ownership Violation
+##Memory Ownership Violation
 Incorrect handling of allocation, lifetime, or ownership of memory.
 
-Silent Failure Detected
+##Silent Failure Detected
 A failure that does not crash, log, or alert but leads to incorrect behavior.
 
-Fuzzer-Only Bug Explained
+##Fuzzer-Only Bug Explained
 A bug realistically exposed only through fuzzing or abnormal input patterns.
 
  Missing any flag = submission not ranked.
@@ -99,7 +99,7 @@ Root Cause:
 Impact:
 Evidence:
 
-Submission Mechanism (Required)
+#Submission Mechanism (Required)
 
 To verify authenticity, your submission must include at least one of the following:
 
@@ -126,7 +126,7 @@ Depth of root-cause analysis
 Clarity of reporting
 
 
-Not Allowed
+#Not Allowed
 
 Exploit development
 
@@ -137,7 +137,7 @@ Tool output without explanation
 Generic vulnerability descriptions
 
 
-@Final Note
+#@Final Note
 
 Security is not a black-box toolchain.
 
